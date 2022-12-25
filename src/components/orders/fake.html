@@ -1,0 +1,41 @@
+return (
+    <div className='slider'>
+      <div className='slider-heading'>
+    <Swiper
+      // install Swiper modules
+      slidesPerView='auto'
+            spaceBetween={10}
+            slidesPerGroupAuto={true}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            
+    >
+     
+      
+      <SwiperSlide className='swiper-slide'>
+      <div className='swiper-slide-img-wrapper'>
+                        <img src="images/products/s1.jpg" className="swiper-slide-img"  />
+                        <img  src="images/products/s2.jpg" className="swiper-slide-img"  />
+                        <img  src="images/products/s3.jpg" className="swiper-slide-img"  />
+                        <img src="images/products/s4.jpg" className="swiper-slide-img"  />
+                        <img  src="images/products/s5.jpg" className="swiper-slide-img"  />
+                        <img src="images/products/s6.jpg" className="swiper-slide-img"  />
+                        <img src="images/products/6.jpg" className="swiper-slide-img"  />
+                        <img src="images/products/6.jpg" className="swiper-slide-img"  />
+                        <img src="images/products/6.jpg" className="swiper-slide-img"  />
+
+                     </div>
+                   
+
+      </SwiperSlide>
+      
+      
+    
+      
+      
+    </Swiper>
+   
+    </div>
+    </div>
+  );
+};

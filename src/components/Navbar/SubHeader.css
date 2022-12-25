@@ -1,0 +1,41 @@
+.sub-nav {
+  height: 39px;
+  background-color: #232F3E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-nav .left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.sub-nav .left .left-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 2px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sub-nav .left .left-item:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+.sub-nav .left .left-item.all {
+  font-weight: 700;
+  margin-left: 10px;
+}
+.sub-nav .left .left-item.all #hamburger {
+  font-size: 22px;
+  margin-right: 2px;
+}
+.sub-nav .right {
+  height: 39px;
+}
+
+
+
+
